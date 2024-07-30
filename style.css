@@ -1,0 +1,330 @@
+@media screen and (max-width: 1300px) {
+    .main img {
+        width: 140px;
+    }
+} 
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.sign {
+    background-color: red;
+    color: white;
+}
+
+.main {
+    background-image: linear-gradient(rgba(3, 3, 3, 0.58),rgba(3, 3, 3, 0.578)), url("bg.jpg");
+    background-position: center;
+    height: 640px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+nav img {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+nav button {
+    margin-top: 15px;
+    margin-right: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.note {
+    color: white;
+    text-align: center;
+    top: 50%;
+    margin-top: 230px; 
+}
+
+.note h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.note h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.note input {
+    font-size: 18px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    border-color: white;
+    border-radius: 4px;
+}
+
+.note button {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px 10px 15px;
+    border-color: red;
+    cursor: grab;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.separation {
+   height: 8px;
+   background-color: rgb(46,44,44);
+   z-index: 20;
+   width: 100%;
+}
+
+.first {
+    color: white;
+    padding-top: 80px;
+    padding-left: 100px;
+    display: flex;
+}
+
+.first h2 {
+    font-size: 48px;
+    padding-top: 110px;
+}
+
+.first p {
+    font-size: 22px;
+}
+
+.firstimg {
+    position: relative;
+}
+
+.first img {
+    width: 555px;
+    position: relative;
+    z-index: 1;   
+    padding-bottom: 80px; 
+}
+
+.first video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+.second {
+    color: white;
+    display: flex;
+}
+
+.second h2 {
+    padding-top: 160px;
+    font-size: 48px
+}
+
+.second p {
+    font-size: 22px;
+}
+
+.second img {
+    padding-bottom: 80px; 
+}
+
+.third {
+    color: white;
+    padding-top: 80px;
+    padding-left: 100px;
+    display: flex;
+}
+
+.third h2 {
+    font-size: 48px;
+    padding-top: 110px;
+}
+
+.third p {
+    font-size: 22px;
+}
+
+.thirdimg {
+    position: relative;
+}
+
+.third img {
+    width: 555px;
+    position: relative;
+    z-index: 1;   
+    padding-bottom: 80px; 
+}
+
+.third video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+.fourth {
+    color: white;
+    display: flex;
+}
+
+.fourth h2 {
+    padding-top: 160px;
+    font-size: 48px
+}
+
+.fourth p {
+    font-size: 22px;
+}
+
+.fourth img {
+    padding-top: 65px;
+    padding-bottom: 70px; 
+}
+
+.faq {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+
+.faq h2 {
+    font-size: 45px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.question {
+    max-width: 750px;
+    margin: auto;
+}
+
+.question li {
+    padding: 5px;
+    list-style: none;
+    width: 100%;
+}
+
+.faq label {
+    padding: 20px;
+    display: flex;
+    font-size: 22px;
+    background-color: #303030;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after {
+    content: '+';
+    position: absolute;
+    font-size: 34px;
+    right: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.question .content {
+    background-color: #303030;
+    overflow: hidden;
+    text-align: left;
+    padding: 0 15px;
+    max-height: 0;
+    letter-spacing: 0.25px;
+    transition: 0.28s;
+}
+
+.question input[type="radio"]:checked + label + .content {
+    max-height: 400px;
+    font-size: 18px;
+}
+
+.question input[type="radio"]:checked + label::after {
+    transform: rotate(135deg);
+}
+
+.end {
+    padding-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.end input {
+    font-size: 18px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    background-color: white;
+    color: white;
+    border-color: white;
+    border-radius: 4px;
+}
+
+.end button {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px 10px 15px;
+    border-color: red;
+    cursor: grab;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.footer {
+    padding-top: 65px;
+}
+
+.footer p {
+    text-align: left;
+    color: gray;
+    padding-left: 10%;
+    font-size: 22px;
+    margin-bottom: 43px;
+}
+
+.footer .row {
+    padding-left: 10%;
+}
+
+.footer .col {
+    margin-bottom: 40px;
+}
+
+.footer .col a {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+
+.footer .lang {
+    padding: 7px 12px;
+    font-size: 20px;
+    color: gray;
+    background-color: black;
+    border: solid gray;
+    margin-bottom: 33px;
+}
+
+.footer div{
+    color: gray;
+    font-size: 18px;
+}
