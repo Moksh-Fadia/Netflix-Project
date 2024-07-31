@@ -269,7 +269,7 @@ input[type="radio"] {
     padding-bottom: 10px;
     padding-left: 12px;
     background-color: white;
-    color: white;
+    color: black;
     border-color: white;
     border-radius: 4px;
 }
@@ -287,18 +287,18 @@ input[type="radio"] {
 
 .footer {
     padding-top: 65px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .footer p {
     text-align: left;
     color: gray;
-    padding-left: 10%;
     font-size: 22px;
     margin-bottom: 43px;
 }
 
 .footer .row {
-    padding-left: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
