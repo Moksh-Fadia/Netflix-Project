@@ -15,6 +15,7 @@ body {
 .sign {
     background-color: red;
     color: white;
+    padding: 10px;
 }
 
 .main {
@@ -247,16 +248,11 @@ input[type="radio"] {
     padding: 0 15px;
     max-height: 0;
     letter-spacing: 0.25px;
-    transition: 0.28s;
 }
 
 .question input[type="radio"]:checked + label + .content {
     max-height: 400px;
     font-size: 18px;
-}
-
-.question input[type="radio"]:checked + label::after {
-    transform: rotate(135deg);
 }
 
 .end {
@@ -303,10 +299,16 @@ input[type="radio"] {
 
 .footer .row {
     padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer .col {
     margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer .col a {
